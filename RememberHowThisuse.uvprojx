@@ -419,6 +419,26 @@
               <FileType>5</FileType>
               <FilePath>.\SaveClock.h</FilePath>
             </File>
+            <File>
+              <FileName>PeripheralClocking.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\PeripheralClocking.c</FilePath>
+            </File>
+            <File>
+              <FileName>PeripheralClocking.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\PeripheralClocking.h</FilePath>
+            </File>
+            <File>
+              <FileName>TimerIni.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\TimerIni.c</FilePath>
+            </File>
+            <File>
+              <FileName>TinerIni.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\TinerIni.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

@@ -1,6 +1,6 @@
-#ifndef _SAVECLCOK_H_
-#define _SAVECLCOK_H_
+#ifndef _SAVECLOCK_H_
+#define _SAVECLOCK_H_
 
-extern void HSE_CheckSave(void);
+extern void HSE_Insurance(void);
 
 #endif
