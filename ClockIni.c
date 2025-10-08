@@ -14,9 +14,11 @@
 		
 		
 	
-		RCC->CFGR |= RCC_CFGR_SWS_PLL;
-		RCC->CFGR |= RCC_CFGR_HPRE_0;
-		RCC->CFGR |= RCC_CFGR_PPRE1_DIV2;
+		
+		RCC->CFGR |= 0x0 << RCC_CFGR_HPRE_Pos;
+    RCC->CFGR |= 0x4 << RCC_CFGR_PPRE1_Pos;
+		
+		RCC->CFGR |= 0x2 << RCC_CFGR_SW_Pos;
 		
 		
 		
@@ -26,13 +28,14 @@
 	void PLLIni (void)
 	{
 	 
-	 RCC->PLLCFGR = 0;
+	
 	 RCC->PLLCFGR |= RCC_PLLCFGR_PLLSRC_HSE;
 	 
 	 #ifdef _EXTERNAL_XTAL_8MHz_	 
 		RCC->PLLCFGR |= 0x8 << RCC_PLLCFGR_PLLM_Pos;
 		RCC->PLLCFGR |= 0xc8 << RCC_PLLCFGR_PLLN_Pos;
 		RCC->PLLCFGR |= 0x0 << RCC_PLLCFGR_PLLP_Pos;
+		RCC->PLLCFGR |= 0x1 << RCC_PLLCFGR_PLLSRC_Pos;
 	 #endif
 		
 		#ifdef EXTERNAL_XTAL_16MHz

@@ -439,6 +439,16 @@
               <FileType>5</FileType>
               <FilePath>.\TinerIni.h</FilePath>
             </File>
+            <File>
+              <FileName>GPIOIni.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\GPIOIni.c</FilePath>
+            </File>
+            <File>
+              <FileName>GPIOIni.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\GPIOIni.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
