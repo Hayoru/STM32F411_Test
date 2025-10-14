@@ -4,6 +4,7 @@
 #include "PeripheralClocking.h"
 #include "GPIOIni.h"
 
+
 void TIM2_IRQHandler (void)
 { 
 	NVIC_ClearPendingIRQ(TIM2_IRQn);
@@ -21,7 +22,7 @@ void TIM2_IRQHandler (void)
   GPIOPortAIni();
 		
 		
-	
+
 	while (1)
 	{__NOP();}
 	
